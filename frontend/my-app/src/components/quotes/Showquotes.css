@@ -1,0 +1,30 @@
+.container{
+    border: 4px solid black;
+    text-align: center;
+    width: 85vw;
+    height: 50vw;
+    position: relative;
+}
+.quotes{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    height: 30vw;
+    width: 80vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mybutton{
+    position:absolute;                  
+    bottom:0;  
+    background-color: white;
+    color: black;
+    height: 90px;
+    width: 200px;
+    border: 2px solid #4CAF50; /* Green */     
+                       
+}
