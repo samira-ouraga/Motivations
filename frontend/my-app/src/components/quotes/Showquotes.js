@@ -30,9 +30,9 @@ class Showquotes extends React.Component {
     const {text,author} = this.state
     return (
     <div className='container'>
-      <p> Click button to see new  quotes</p>
+      <h1> Click button to see new  quotes</h1>
       <div className='quotes'>
-        <h1>{text} </h1>
+        <h3>{text} </h3>
         <p>{author} </p>
         <button className='mybutton' onClick={this.displayQuotes}> New quote</button>
       </div>
